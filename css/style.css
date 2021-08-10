@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+#navbar{
+    background-color: #d1cacab6;
+    border-radius: 5px;
+    max-height: 100vh;
+}
+.li-class a{
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.li-class a:hover{
+    background-color: rgb(253, 250, 250);
+    font-weight: 500;
+    border-left: 2px solid rgb(172, 32, 32);
+    width: 100%;
+    padding: 0.3rem;
+}
+.p-class{
+    text-align: justify;
+}
+.img1{
+    height:140px;
+}
+
+.ul2-class{
+    background-color: #d1cacab6;
+    height: 25vh;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}  
+.p2-class{
+    background-color: #d1cacab6;
+    border-radius: 10px;
+    padding: 1.3rem;
+}
+.card-text{
+    text-align: justify;
+}
+@media (max-width:1200px) {
+    .CTA{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .CTA{
+        font-size: 1.2rem;
+    }
+    .ul2-class{
+        width:max-content;
+        padding: 8px;
+    }
+    .useful-link{
+      font-size:1.2rem;
+    }
+    .news{
+      font-size:1rem;
+      font-weight: bold;
+    }
+    
+}
+@media (max-width:425px){
+    .breadcrumb{
+        margin-left:0 !important;
+    }
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
